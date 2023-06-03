@@ -80,11 +80,14 @@ a {
 }
 
 /* ==== HEADER ==== */
-.header {
-  
-}
+/* .header {
+  height: 70px;
+  display: flex;
+  align-items: center;
+} */
 .header .container {
   display: flex;
+  align-items: center;
 }
 .header-logo {
 }
@@ -96,4 +99,7 @@ a {
 .header-item {
 }
 .header-link {
+  padding: 30px 0;
+  display: block;
+  padding-left: 40px;
 }
